@@ -1,6 +1,6 @@
 [
     {
-        "Description": "Breach 1",
+        "Description": "Vulnhub Machine",
         "Format": "ova",
         "Url": "s3://vulnhub-ami/breach1.ova"
     }
