@@ -20,7 +20,7 @@ echo ""
 
 echo ""
 
-echo "To monitor the import image process run this command " 
+echo "To monitor the import image process run this command and it takes 4-5 mins to complete the process" 
 
 echo ""
 
