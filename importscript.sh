@@ -12,6 +12,20 @@ aws ec2 import-image --description ''AMI'' --disk-containers ''file://~/containe
 
 read -p "Enter the import task id: " task_id
 
-# monitor an import image process
+# import image process
 
 aws ec2 describe-import-image-tasks --import-task-ids $task_id
+
+echo ""
+
+echo ""
+
+echo "To monitor the import image process run this command " 
+
+echo ""
+
+sleep 2
+
+echo ""
+
+echo "aws ec2 describe-import-image-tasks --import-task-ids $task_id"
